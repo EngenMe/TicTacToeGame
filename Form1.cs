@@ -32,15 +32,15 @@ namespace TicTacToeGame
             btn32.Image = Resources.question_mark;
             btn33.Image = Resources.question_mark;
 
-            btn11.BackgroundImage = null;
-            btn12.BackgroundImage = null;
-            btn13.BackgroundImage = null;
-            btn21.BackgroundImage = null;
-            btn22.BackgroundImage = null;
-            btn23.BackgroundImage = null;
-            btn31.BackgroundImage = null;
-            btn32.BackgroundImage = null;
-            btn33.BackgroundImage = null;
+            btn11.BackColor = Color.Transparent;
+            btn12.BackColor = Color.Transparent;
+            btn13.BackColor = Color.Transparent;
+            btn21.BackColor = Color.Transparent;
+            btn22.BackColor = Color.Transparent;
+            btn23.BackColor = Color.Transparent;
+            btn31.BackColor = Color.Transparent;
+            btn32.BackColor = Color.Transparent;
+            btn33.BackColor = Color.Transparent;
         }
 
         // Gets the current player from the label tag
@@ -244,10 +244,10 @@ namespace TicTacToeGame
             e.Graphics.DrawLine(pen, 460, 335, 845, 335);
         }
 
-        // Event handler for button 11 click
-        private void btn11_Click(object sender, EventArgs e)
+        // Event handler for all button click
+        private void btn_Click(object sender, EventArgs e)
         {
-            if (btn11.Tag != null)
+            if (((Button)sender).Tag != null)
             {
                 MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
@@ -255,136 +255,8 @@ namespace TicTacToeGame
                 return;
             }
 
-            UpdateCurrentPlayer(btn11);
-            UpdatePBImg(btn11);
-            CheckWinner();
-        }
-
-        // Event handler for button 12 click
-        private void btn12_Click(object sender, EventArgs e)
-        {
-            if (btn12.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn12);
-            UpdatePBImg(btn12);
-            CheckWinner();
-        }
-
-        // Event handler for button 13 click
-        private void btn13_Click(object sender, EventArgs e)
-        {
-            if (btn13.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn13);
-            UpdatePBImg(btn13);
-            CheckWinner();
-        }
-
-        // Event handler for button 21 click
-        private void btn21_Click(object sender, EventArgs e)
-        {
-            if (btn21.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn21);
-            UpdatePBImg(btn21);
-            CheckWinner();
-        }
-
-        // Event handler for button 22 click
-        private void btn22_Click(object sender, EventArgs e)
-        {
-            if (btn22.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn22);
-            UpdatePBImg(btn22);
-            CheckWinner();
-        }
-
-        // Event handler for button 23 click
-        private void btn23_Click(object sender, EventArgs e)
-        {
-            if (btn23.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn23);
-            UpdatePBImg(btn23);
-            CheckWinner();
-        }
-
-        // Event handler for button 31 click
-        private void btn31_Click(object sender, EventArgs e)
-        {
-            if (btn31.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn31);
-            UpdatePBImg(btn31);
-            CheckWinner();
-        }
-
-        // Event handler for button 32 click
-        private void btn32_Click(object sender, EventArgs e)
-        {
-            if (btn32.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn32);
-            UpdatePBImg(btn32);
-            CheckWinner();
-        }
-
-        // Event handler for button 33 click
-        private void btn33_Click(object sender, EventArgs e)
-        {
-            if (btn33.Tag != null)
-            {
-                MessageBox.Show("Already Checked", "Wrong Action!", MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-
-                return;
-            }
-
-            UpdateCurrentPlayer(btn33);
-            UpdatePBImg(btn33);
+            UpdateCurrentPlayer((Button)sender);
+            UpdatePBImg((Button)sender);
             CheckWinner();
         }
     }

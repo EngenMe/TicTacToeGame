@@ -55,7 +55,7 @@
             this.btnRestartGame.Margin = new System.Windows.Forms.Padding(5);
             this.btnRestartGame.Name = "btnRestartGame";
             this.btnRestartGame.Size = new System.Drawing.Size(140, 39);
-            this.btnRestartGame.TabIndex = 9;
+            this.btnRestartGame.TabIndex = 10;
             this.btnRestartGame.Text = "Restart Game";
             this.btnRestartGame.UseVisualStyleBackColor = false;
             this.btnRestartGame.Click += new System.EventHandler(this.btnRestartGame_Click);
@@ -131,7 +131,7 @@
             this.btn11.Location = new System.Drawing.Point(618, 127);
             this.btn11.Name = "btn11";
             this.btn11.Size = new System.Drawing.Size(134, 128);
-            this.btn11.TabIndex = 15;
+            this.btn11.TabIndex = 1;
             this.btn11.UseVisualStyleBackColor = false;
             this.btn11.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -147,7 +147,7 @@
             this.btn12.Location = new System.Drawing.Point(797, 127);
             this.btn12.Name = "btn12";
             this.btn12.Size = new System.Drawing.Size(134, 128);
-            this.btn12.TabIndex = 16;
+            this.btn12.TabIndex = 2;
             this.btn12.UseVisualStyleBackColor = false;
             this.btn12.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -163,7 +163,7 @@
             this.btn13.Location = new System.Drawing.Point(985, 127);
             this.btn13.Name = "btn13";
             this.btn13.Size = new System.Drawing.Size(134, 128);
-            this.btn13.TabIndex = 17;
+            this.btn13.TabIndex = 3;
             this.btn13.UseVisualStyleBackColor = false;
             this.btn13.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -179,7 +179,7 @@
             this.btn21.Location = new System.Drawing.Point(618, 273);
             this.btn21.Name = "btn21";
             this.btn21.Size = new System.Drawing.Size(134, 128);
-            this.btn21.TabIndex = 18;
+            this.btn21.TabIndex = 4;
             this.btn21.UseVisualStyleBackColor = false;
             this.btn21.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -195,7 +195,7 @@
             this.btn22.Location = new System.Drawing.Point(797, 273);
             this.btn22.Name = "btn22";
             this.btn22.Size = new System.Drawing.Size(134, 128);
-            this.btn22.TabIndex = 19;
+            this.btn22.TabIndex = 5;
             this.btn22.UseVisualStyleBackColor = false;
             this.btn22.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -211,7 +211,7 @@
             this.btn23.Location = new System.Drawing.Point(985, 271);
             this.btn23.Name = "btn23";
             this.btn23.Size = new System.Drawing.Size(134, 128);
-            this.btn23.TabIndex = 20;
+            this.btn23.TabIndex = 6;
             this.btn23.UseVisualStyleBackColor = false;
             this.btn23.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -227,7 +227,7 @@
             this.btn31.Location = new System.Drawing.Point(618, 423);
             this.btn31.Name = "btn31";
             this.btn31.Size = new System.Drawing.Size(134, 128);
-            this.btn31.TabIndex = 21;
+            this.btn31.TabIndex = 7;
             this.btn31.UseVisualStyleBackColor = false;
             this.btn31.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -243,7 +243,7 @@
             this.btn32.Location = new System.Drawing.Point(797, 423);
             this.btn32.Name = "btn32";
             this.btn32.Size = new System.Drawing.Size(134, 128);
-            this.btn32.TabIndex = 22;
+            this.btn32.TabIndex = 8;
             this.btn32.UseVisualStyleBackColor = false;
             this.btn32.Click += new System.EventHandler(this.btn_Click);
             // 
@@ -259,7 +259,7 @@
             this.btn33.Location = new System.Drawing.Point(985, 423);
             this.btn33.Name = "btn33";
             this.btn33.Size = new System.Drawing.Size(134, 128);
-            this.btn33.TabIndex = 23;
+            this.btn33.TabIndex = 9;
             this.btn33.UseVisualStyleBackColor = false;
             this.btn33.Click += new System.EventHandler(this.btn_Click);
             // 
